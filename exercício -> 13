@@ -1,0 +1,28 @@
+while True:
+    dia = input('Digite o dia correspondente de "1" a "7": ')
+
+    if dia.isdigit():
+
+        dia = int(dia)
+
+        if dia == 1:
+            print(f'{dia}-Domingo')
+        elif dia == 2:
+            print(f'{dia}-Segunda')
+        elif dia == 3:
+            print(f'{dia}-Terça')
+        elif dia == 4:
+            print(f'{dia}-Quarta')
+        elif dia == 5:
+            print(f'{dia}-Quinta')
+        elif dia == 6:
+            print(f'{dia}-Sexta')
+        elif dia == 7:
+            print(f'{dia}-Sabado')
+            break
+        else:
+            print('valor inválido')
+
+
+    else:
+        print(f'Digitação invalida por ser letras')
